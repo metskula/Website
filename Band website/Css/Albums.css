@@ -1,0 +1,53 @@
+﻿body {
+    background-color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 18px;
+    /*font-family: 'Walter Turncoat', cursive;*/
+    background: url(../Images/background.PNG) no-repeat center fixed;
+    background-size: 70%;
+}
+
+h1 {
+    padding-top: 7%;
+    display: inline-block;
+}
+
+p {
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+}
+
+.albumCovers {
+    perspective: 700px;
+    position: relative;
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    width: 400px;
+    height: 400px;
+    transition: all 0.5s ease;
+    transform-style: preserve-3d;
+    font-size: small;
+}
+
+.card-front, .card-back {
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    backface-visibility: hidden;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}

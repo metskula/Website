@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A7X</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!--The fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Patrick+Hand+SC|Permanent+Marker|Ravi+Prakash|Rock+Salt|Shadows+Into+Light|Walter+Turncoat&display=swap" rel="stylesheet">
+
+    <script>
+        $(document).ready(function () {
+            $('#navbar').load("Nav.html");
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#albums').load("Albums.html");
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#footer').load("Footer.html");
+        });
+    </script>
+
+    <link rel="stylesheet" href="Css/DiamondsInTheRough.css">
+
+</head>
+<body>
+    <div id="navbar"></div>
+
+    <div id="header">
+        <h1>Discography</h1>
+        <br />
+        <a href="Albums.html">Show albums</a>
+        <p> | </p>
+        <a href="ListofSongs.html">Show a list of songs</a>
+        <p></p>
+    </div>
+
+    <div id="albums" style="position: relative;"></div>
+
+    <div id="footer"></div>
+</body>
+</html>

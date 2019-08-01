@@ -1,0 +1,10 @@
+﻿body {
+    background-color: white;
+    font-size: 18px;
+    /*font-family: 'Walter Turncoat', cursive;*/
+    background: url(../Images/background.PNG) no-repeat center fixed;
+    background-size: 70%;
+}
+
+/*Note that the fixed menu will overlay your other content. To fix this, 
+    add a margin-top (to the content) that is equal or larger than the height of your menu.*/

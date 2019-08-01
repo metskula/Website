@@ -1,0 +1,29 @@
+﻿body {
+    background-color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 18px;
+    /*font-family: 'Walter Turncoat', cursive;*/
+    background: url(../Images/background.PNG) no-repeat center fixed;
+    background-size: 70%;
+}
+
+h1 {
+    padding-top: 7%;
+    display: inline-block;
+}
+
+p {
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+}
+
+#header {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.albumCovers ul li {
+    display: inline-block;
+    list-style-type: none;
+}

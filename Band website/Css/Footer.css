@@ -1,0 +1,40 @@
+﻿body {
+    background-color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 18px;
+    /*font-family: 'Walter Turncoat', cursive;*/
+}
+
+a {
+    opacity: 0.5;
+}
+
+    a:hover {
+        opacity: 1.0;
+        text-decoration: none;
+    }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: rgb(166, 166, 166);
+    text-align: center;
+    font: inherit;
+}
+
+    .footer ul li {
+        display: inline-block;
+        list-style-type: none;
+    }
+
+    .footer img {
+        max-width: 25%;
+        height: auto;
+        margin: 0;
+
+        padding: 0;
+    }

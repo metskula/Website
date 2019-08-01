@@ -1,0 +1,47 @@
+﻿.container p h1 {
+    width: 200px;
+    height: 300px;
+    /*margin: 5px auto;*/
+    margin: 0 5px;
+}
+
+body {
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    /*font-family: 'Walter Turncoat', cursive;*/
+}
+
+.container {
+     
+    perspective: 700px;
+
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+    transition: all 2s ease;
+    transform-style: preserve-3d;
+    font-size: small;
+}
+
+.card-front, .card-back {
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 300px;
+    backface-visibility: hidden;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
