@@ -19,12 +19,12 @@
 
     <script>
         $(document).ready(function () {
-            $('#navbar').load("Nav.html");
+            $('#albums').load("Albums.html");
         });
     </script>
     <script>
         $(document).ready(function () {
-            $('#albums').load("Albums.html");
+            $('#navbar').load("Nav.html");
         });
     </script>
     <script>
@@ -37,19 +37,17 @@
 
 </head>
 <body>
-    <div id="navbar"></div>
+    <nav id="navbar"></nav>
 
     <div id="header">
         <h1>Discography</h1>
         <br />
-        <a href="Albums.html">Show albums</a>
-        <p> | </p>
-        <a href="ListofSongs.html">Show a list of songs</a>
-        <p>ashfdoasjdosadj</p>
+        <a href="Albums.html">Show albums</a><p> | </p><a href="ListofSongs.html">Show a list of songs</a>
     </div>
 
-    <div id="albums" style="position: relative;"></div>
+    <div id="albums"></div>
 
-    <div id="footer"></div>
+    <footer id="footer"></footer>
+
 </body>
 </html>
