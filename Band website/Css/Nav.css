@@ -4,6 +4,7 @@
     top: 0;
     min-height: 100%;
     width: 100%;
+    /*z-index: 1;*/
 }
 
 #content-wrap {
@@ -15,6 +16,15 @@ body {
     font-size: 18px;
     /*font-family: 'Walter Turncoat', cursive;*/
 }
+
+a {
+    opacity: 0.5;
+}
+
+    a:hover {
+        opacity: 1.0;
+        text-decoration: none;
+    }
 
 /*Centering the navbar text*/
 .navbar .navbar-nav {
